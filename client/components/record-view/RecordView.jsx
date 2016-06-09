@@ -199,10 +199,10 @@ export default class RecordView extends React.Component {
 
     // Wait 2 seconds after stop button is pressed
     setTimeout(function() {
-      var blob = FACE.webcam.stopPlaying('webcam');
+      FACE.webcam.stopPlaying('webcam');
       //console.log('BLOB', blob);
     //  if (this.state.payed) {
-        browserHistory.push('/reports/' + this.state.sessionId.toString());
+      browserHistory.push('/reports/' + this.state.sessionId.toString());
     //  } else {
     //   browserHistory.push('/payment');
      // }
