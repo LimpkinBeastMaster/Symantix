@@ -4,7 +4,6 @@ import { Link } from 'react-router';
 import $ from 'jquery';
 import { browserHistory } from 'react-router';
 
-
 //var x = false;
 
 export default class NavBar extends React.Component {
@@ -12,7 +11,7 @@ export default class NavBar extends React.Component {
   constructor(){
     super();
     this.state = {
-     payed: false 
+     payed: false // used to control access based on user payment
     }
   }
 
@@ -39,11 +38,11 @@ export default class NavBar extends React.Component {
     console.log(e);
     e.preventDefault();
 
-    if(this.state.payed) {
-      browserHistory.push('/sessions');
-    } else {
-      browserHistory.push('/payment');
-    }
+   // if(this.state.payed) {
+    browserHistory.push('/sessions');
+   // } else {
+   //   browserHistory.push('/payment');
+  //  }
   }
 
   render() {

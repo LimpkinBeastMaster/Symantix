@@ -1,3 +1,17 @@
+// variables
+var leftchannel = [];
+var rightchannel = [];
+var recorder = null;
+var recording = false;
+var recordingLength = 0;
+var volume = null;
+var audioInput = null;
+var sampleRate = null;
+var audioContext = null;
+var context = null;
+var outputElement = document.getElementById('output');
+var outputString;
+
 var FACE = (function() {
   // Private Section
   var K_VERSION                   = "1.0";
@@ -97,7 +111,9 @@ var FACE = (function() {
                            var vendorURL = window.URL || window.webkitURL;
                            video.src = vendorURL.createObjectURL( stream );
                          }
+                        
                          video.play();
+                         // captureAudioData(stream);
                        },
                        function( err ) {
                          console.log( "An error occured! " + err );
@@ -115,6 +131,9 @@ var FACE = (function() {
                        video.mozSrcObject = null;
                      else
                        video.src = null;
+
+                     //console.log('THE BLOOOOOB', blob);
+                     // return blob;
                    },
 
                    takePicture : function( videoTagID, imageTagID ) {

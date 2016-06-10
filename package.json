@@ -39,7 +39,8 @@
     "react-chartjs": "^0.7.3",
     "react-dom": "^15.1.0",
     "react-router": "^2.4.1",
-    "react-webcam": "0.0.12"
+    "react-webcam": "0.0.12",
+    "watson-developer-cloud": "^1.9.3"
   },
   "devDependencies": {
     "babel-cli": "^6.9.0",
@@ -64,7 +65,8 @@
     "request-promise": "^3.0.0",
     "stripe": "^4.7.0",
     "supertest": "^1.2.0",
-    "watchify": "^3.7.0"
+    "watchify": "^3.7.0",
+    "watson-html5-speech-recognition": "^0.6.6"
   },
   "repository": {
     "type": "git",
