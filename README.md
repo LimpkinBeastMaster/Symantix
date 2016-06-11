@@ -26,7 +26,11 @@ Payment:
 ![screen shot 2016-06-06 at 20 10 18](http://s33.postimg.org/veb8ye53z/image.png)
 Record:
 ![screen shot 2016-06-06 at 20 10 18](http://s33.postimg.org/veb8ye53z/image.png)
-Graphs:
+FACE Graphs:
+![screen shot 2016-06-06 at 20 09 39](http://s33.postimg.org/veb8ye53z/image.png)
+Speech Graphs:
+![screen shot 2016-06-06 at 20 09 39](http://s33.postimg.org/veb8ye53z/image.png)
+Keyword Insights:
 ![screen shot 2016-06-06 at 20 09 39](http://s33.postimg.org/veb8ye53z/image.png)
 Session Overview:
 ![screen shot 2016-06-06 at 20 09 18](http://s33.postimg.org/veb8ye53z/image.png)
@@ -160,12 +164,7 @@ Session Overview:
 └── .eslintrc                   # ESLint settings
 ```
 
-## BLUE Team
-  - Product Owner:            Christian Haug
-  - Scrum Master:             Jack Zhang
-  - Development Team Members: Christian Haug, Jack Zhang, Kani Munidasa, Katherine Hao
-
-## GOLD Team
+## Symantix Team
   - Product Owner:            Tim Do
   - Scrum Master:             Asif Ahmed
   - Development Team Members: Tim Do, Asif Ahmed, Albert Han, Ben Roa
