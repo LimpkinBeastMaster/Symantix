@@ -1,8 +1,6 @@
-[![Build Status](https://travis-ci.org/chkakaja/sentimize.svg?branch=master)](https://travis-ci.org/chkakaja/sentimize)
-[![Stories in Ready](https://badge.waffle.io/chkakaja/sentimize.png?label=ready&title=Ready)](https://waffle.io/chkakaja/sentimize)
-# Sentimize
+# Symantix
 
-  Sentimize provides human emotion analysis during video recording for interviews and training.
+  Become a better presenter with Symantix, a Sentimize project that provides speech and video feedback.
 
 ## Table of Contents
 1. [Usage](#Usage)
@@ -19,26 +17,28 @@
 ## Usage
 
 Landingpage:
-![screen shot 2016-06-06 at 20 10 44](https://cloud.githubusercontent.com/assets/10008938/15844915/2478c052-2c23-11e6-8069-5ed2edce3c05.png)
+![screen shot 2016-06-06 at 20 10 44](http://s33.postimg.org/5nqob4l7j/image.png)
 Login:
-![screen shot 2016-06-06 at 20 11 19](https://cloud.githubusercontent.com/assets/10008938/15844918/2796150a-2c23-11e6-98ab-8042cbf48ea1.png)
+![screen shot 2016-06-06 at 20 11 19](http://s33.postimg.org/7czrj70wv/image.png)
 Home:
-![screen shot 2016-06-06 at 20 08 50](https://cloud.githubusercontent.com/assets/10008938/15844927/334263b8-2c23-11e6-94f4-d9a040efdfd1.png)
+![screen shot 2016-06-06 at 20 08 50](http://s33.postimg.org/w2oov2t7j/image.png)
+Payment:
+![screen shot 2016-06-06 at 20 10 18](http://s33.postimg.org/veb8ye53z/image.png)
 Record:
-![screen shot 2016-06-06 at 20 10 18](https://cloud.githubusercontent.com/assets/10008938/15844922/2cdbb236-2c23-11e6-9f2d-4adf4d9b0f79.png)
+![screen shot 2016-06-06 at 20 10 18](http://s33.postimg.org/veb8ye53z/image.png)
 Graphs:
-![screen shot 2016-06-06 at 20 09 39](https://cloud.githubusercontent.com/assets/10008938/15844923/2f5013c2-2c23-11e6-8608-607eff0c4da8.png)
+![screen shot 2016-06-06 at 20 09 39](http://s33.postimg.org/veb8ye53z/image.png)
 Session Overview:
-![screen shot 2016-06-06 at 20 09 18](https://cloud.githubusercontent.com/assets/10008938/15844924/3144420c-2c23-11e6-920e-c4ebdc5dea55.png)
+![screen shot 2016-06-06 at 20 09 18](http://s33.postimg.org/veb8ye53z/image.png)
 
 ## Getting started
 
 #### 1. Clone the latest version
 
-  Start by cloning the latest version of Sentimize on your local machine by running:
+  Start by cloning the latest version of Symentix on your local machine by running:
 
   ```sh
-  $ git clone https://github.com/chkakaja/sentimize
+  $ git clone https://github.com/LimpkinBeastMaster/sentimize
   $ cd sentimize
   ```
 
@@ -135,10 +135,15 @@ Session Overview:
 │     ├── /main-layout/         # Main Layout components
 │     ├── /record-view/         # Record view components
 │     ├── /report-view/         # Reporting view components
+│     ├── /payment-view         # Stripe Payment view components
+│     ├── /sessions-view        # Session view components
+│     ├── /settings-view        # Setting view components
 │     ├── /App.jsx/             # Main React App
-│   ├── /lib/                   # Lib files, e.g. from FACE API
+│   ├── /lib/                   # Lib files, includes FACE API and AudioExtract
+│   ├── /images/                # Image Folder
 │   ├── /style/                 # CSS Style files
 │   ├── /index.jsx              # Index file to attach React to DOM
+├── /data/                      # Session Data JSON
 ├── /server/                    # Server source code
 │   ├── /config/                # Initial server config files
 │   ├── /controllers/           # Controllers for database interaction
@@ -150,7 +155,6 @@ Session Overview:
 ├── /test/                      # Server and client side tests
 │   ├── /client/                # Client side tests
 │   ├── /server/                # Server side tests
-|   ├── /data/                  # Holds seed & dummy data
 └── package.json                # List of 3rd party libraries and utilities to be installed
 └── .babelrc                    # Babel presets
 └── .eslintrc                   # ESLint settings
