@@ -21,6 +21,8 @@ Landingpage:
 ![landing](https://cloud.githubusercontent.com/assets/2279902/16827321/4735066c-493a-11e6-9315-4ec8b29c73e2.png)
 Payment:
 ![stripepay](https://cloud.githubusercontent.com/assets/2279902/16827322/4735b620-493a-11e6-9fd4-44a214fc390b.png)
+Concepts Visualization:
+![concepts](https://github.com/LimpkinBeastMaster/Symantix/blob/master/bubbles.png)
 Home:
 ![screen shot 2016-06-06 at 20 08 50](https://cloud.githubusercontent.com/assets/10008938/15844927/334263b8-2c23-11e6-94f4-d9a040efdfd1.png)
 Record:
